@@ -5,3 +5,4 @@ let shout = string => {
 let whisper = string => {
   return string.toLowerCase();
 }
+
