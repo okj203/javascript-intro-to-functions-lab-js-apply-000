@@ -13,3 +13,9 @@ let logShout = string => {
 let logWhisper = string => {
   console.log(string.toLowerCase());
 }
+
+let sayHiToGrandma = string => {
+  if (string === string.toLowerCase()) {
+    return 'I can\' hear you
+  }
+}
